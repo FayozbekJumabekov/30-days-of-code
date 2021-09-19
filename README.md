@@ -8,31 +8,20 @@ o’tganini hisoblovchi dastur tuzing.
 #include <iostream>
 using namespace std;
 
-
-void func(int sec);
-
-
 int main(){
 	
-	int sec;
+	int sec,hour,min;
+	cout<<"Sekund kiriting : ";
 	cin>>sec; //3670  1 soat 1 min 10 sec 
-    func(sec);
-	
-}
-
- void func(int sec){
- 	
- int hour,min;
- 	
- 		hour= sec/3600;
+    	hour= sec/3600;
 	
 	min=sec%3600/60;
 	sec= sec%3600%60;
 	
-	cout<<hour<<"  "<<min<<"  "<<sec;
+	cout<<hour<<":"<<min<<":"<<sec;
 	
- 	
- 	
- }
+	
+}
 
+ 
 
