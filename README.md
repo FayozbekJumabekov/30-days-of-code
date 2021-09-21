@@ -1,9 +1,5 @@
 # Lesson 5
 ## Masala
-/* Kun boshidan boshlab N sekund o’tdi. Kun
-boshidan boshlab qancha soat, minut, sekund
-o’tganini hisoblovchi dastur tuzing.
-*/
 
 #include <iostream>
 using namespace std;
