@@ -23,7 +23,7 @@ int main(){
  ```
  
  # Lesson 7
- ## Task 1
+ ### Task 1
  //Uchta tanga berilgan. Ulardan biri soxta va og'ir. Tortish uchun
 ikki pallali tarozi o'lchov toshlarisiz berilgan. Soxta tangani
 aniqlang.
@@ -56,7 +56,7 @@ int main(){
 }
 
  ```
- ## Task 2
+ ### Task 2
  //Foydalanuvchi tomonidan kiritilgan uch xonali natural sonning chapdan oqiganda ham, ongdan oqiganda ham
 bir xil" ekanligini tekshiring.
 
@@ -122,7 +122,7 @@ int main(){
    }	
 }
 ```
-## Task 2
+### Task 2
 // Uchta sonning kattasini topish
 ``` c++
 #include <iostream>
