@@ -23,7 +23,7 @@ int main(){
  ```
  
  # Lesson 6
- ## Task 2
+ ## Task 1
  //Uchta tanga berilgan. Ulardan biri soxta va og'ir. Tortish uchun
 ikki pallali tarozi o'lchov toshlarisiz berilgan. Soxta tangani
 aniqlang.
@@ -53,6 +53,33 @@ int main(){
 	}
 	else cout<<"???";
 	
+}
+
+ ```
+ ## Task 2
+ //Foydalanuvchi tomonidan kiritilgan uch xonali natural sonning chapdan oqiganda ham, ongdan oqiganda ham
+bir xil" ekanligini tekshiring.
+
+ ``` c++
+ 
+ #include <iostream>
+using namespace std;
+int main(){
+	
+	int n,a,b,c;
+	cin>>n;
+	
+	a=n/100;
+	b=n%100/10;
+	c=n%10;
+	
+	if(a==c){
+		cout<<"True"<<endl;
+	}
+	else cout<<"False"<<endl;
+	
+	
+main();	
 }
 
  ```
