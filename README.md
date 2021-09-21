@@ -57,8 +57,31 @@ int main(){
    }
    }	
 }
-
-
-
+```
+## Task 2
+// Uchta sonning kattasini topish
+``` c++
+#include <iostream>
+using namespace std;
+int main(){
+	
+	int a,b,c;
+	
+	cout<<"Birinchi son : "; cin>>a;
+	cout<<"Ikkinchi son : "; cin>>b;
+	cout<<"Uchinchi son : "; cin>>c;
+	
+	
+	if(a>b && a>c ){
+   cout<<"Katta son : "<<a<<endl;
+	}
+	else if( b>a && b>c){
+		
+		cout<<"Katta son : "<<b<<endl;
+		
+	}
+	else
+		cout<<"Katta son : "<<c<<endl;
+}
 
 ```
