@@ -21,6 +21,43 @@ int main(){
 }
 
  ```
+ 
+ # Lesson 6
+ ## Task 2
+ //Uchta tanga berilgan. Ulardan biri soxta va og'ir. Tortish uchun
+ikki pallali tarozi o'lchov toshlarisiz berilgan. Soxta tangani
+aniqlang.
+
+ ``` c++
+ #include <iostream>
+using namespace std;
+int main(){
+	
+	int a,b,c;
+	
+	cout<<"Birinchi tanga : "; cin>>a;
+	cout<<"Ikkinchi tanga : "; cin>>b;
+	cout<<"Uchinchi tanga : "; cin>>c;
+	
+	
+	if(a>b && a>c ){
+   cout<<"1 - tanga soxta"<<endl;
+	}
+	else if( b>a && b>c){
+		
+		cout<<"2- tanga soxta"<<endl;
+		
+	}
+	else if(c>a && c>b){
+		cout<<"3 - tanga soxta"<<endl;
+	}
+	else cout<<"???";
+	
+}
+
+ ```
+ 
+ 
 # Lesson 7
 ### Task 1
 //Berilgan 3 ta sonni o'sish tartibida chiqaring
