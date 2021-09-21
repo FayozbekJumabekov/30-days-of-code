@@ -1,5 +1,5 @@
 # Lesson 5
-### Masala
+### Task 1
 ```c++
 
 #include <iostream>
