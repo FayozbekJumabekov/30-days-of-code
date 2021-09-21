@@ -1,5 +1,6 @@
 # Lesson 5
 ## Masala
+```c++
 
 #include <iostream>
 using namespace std;
@@ -19,5 +20,5 @@ int main(){
 	
 }
 
- 
+ ```
 
