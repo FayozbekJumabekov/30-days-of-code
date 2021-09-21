@@ -22,7 +22,7 @@ int main(){
 
  ```
  
- # Lesson 6
+ # Lesson 7
  ## Task 1
  //Uchta tanga berilgan. Ulardan biri soxta va og'ir. Tortish uchun
 ikki pallali tarozi o'lchov toshlarisiz berilgan. Soxta tangani
@@ -85,7 +85,7 @@ main();
  ```
  
  
-# Lesson 7
+# Lesson 8
 ### Task 1
 //Berilgan 3 ta sonni o'sish tartibida chiqaring
 
