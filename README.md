@@ -29,9 +29,7 @@ int main(){
 #include <iostream>
 using namespace std;
 int main(){
-
-
-   int a,b,c;
+  int a,b,c;
    cin>>a>>b>>c;
    
    if(a>b && a>c){
@@ -39,32 +37,25 @@ int main(){
    		cout<<c<<" "<<b<<" "<<a<<endl;
 	   }
 	   else if(c>b){
-	   cout<<b<<" "<<c<<" "<<a<<endl;
-	   	
+	   cout<<b<<" "<<c<<" "<<a<<endl;	
 	   }
    }
-   
-    if(b>a && b>c){
+   if(b>a && b>c){
    	if(a>c){
    		cout<<c<<" "<<a<<" "<<b<<endl;
 	   }
 	   else if(c>a){
 	   cout<<a<<" "<<c<<" "<<b<<endl;
-	   	
-	   }
-   }
-   
+	   	 } }
+  
     if(c>a && c>b){
    	if(a>b){
    		cout<<b<<" "<<a<<" "<<c<<endl;
 	   }
 	   else if(b>a){
-	   cout<<a<<" "<<b<<" "<<c<<endl;
-	   	
-	   }
+	   cout<<a<<" "<<b<<" "<<c<<endl;  	
    }
-
-	
+   }	
 }
 
 
