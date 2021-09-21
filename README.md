@@ -25,7 +25,7 @@ int main(){
 ### Task 1
 //Berilgan 3 ta sonni o'sish tartibida chiqaring
 
-'''c++
+```c++
 #include <iostream>
 using namespace std;
 int main(){
@@ -70,4 +70,4 @@ int main(){
 
 
 
-'''
+```
