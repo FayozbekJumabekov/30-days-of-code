@@ -149,3 +149,27 @@ int main(){
 }
 
 ```
+# Lesson 8
+### Task 1
+//Calculator
+``` c++
+#include <iostream>
+using namespace std;
+int main(){
+   
+   float a,b;
+   char k;
+   int n;
+  while(true){
+  	 cout<<"Enter the  number : ";
+  	 cin>>a>>k>>b;
+   switch(k){
+   	
+   	case '+' : cout<<"Javob :"<<a+b<<endl; break;
+   	case '-' : cout<<"Javob :"<<a-b<<endl; break;
+   	case '*' : cout<<"Javob :"<<a*b<<endl; break;
+   	case '/' : cout<<"Javob :"<<a/b<<endl; break;
+   	default : cout<<"Bunday amal yo'q"<<endl; break;	
+   }
+  }	}
+```
