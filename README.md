@@ -173,3 +173,76 @@ int main(){
    }
   }	}
 ```
+
+# Lesson 10
+### Task 1
+``` c++
+#include <iostream>
+using namespace std;
+int main(){
+   
+   string currency,curren; 
+   float value;
+
+  	 cout<<"Enter Currency : "; cin>>currency;
+  	 cout<<"Enter the Value : "; cin>>value;
+     cout<<"Qaysi valyutaga otmoqchisiz ?  "; cin>>curren;
+    if(currency=="euro") // start
+    {
+           if(curren=="cad"){
+		   cout<<value*554.92/875.85<<endl;
+   	cout<<value*554.92<< " usd"<<endl;
+}
+else if(curren=="aud"){
+		   cout<<value*554.92/1105.95<<endl;
+   	cout<<value*554.92<< " usd"<<endl;
+} else if(curren=="inr"){
+		   cout<<value*554.92/34754.84<<endl;
+   	cout<<value*554.92<< " usd"<<endl;         
+}}
+	else if(currency=="usd") // start
+  cout<<value*1<<" usd"<<endl;
+  
+	else if(currency=="funt"){ //start
+ if(curren=="cad"){
+		   cout<<value*554.92/875.85<<endl;
+   	cout<<value*554.92<< " usd"<<endl;
+}
+else if(curren=="aud"){
+		   cout<<value*554.92/1105.95<<endl;
+   	cout<<value*554.92<< " usd"<<endl;
+} else if(curren=="inr"){
+		   cout<<value*554.92/34754.84<<endl;
+   	cout<<value*554.92<< " usd"<<endl;
+}	
+}
+else if(currency=="cad") //start
+  {   	if(curren=="euro"){
+		   cout<<value*875.85/554.92<<endl;
+   	cout<<value*554.92<< " usd"<<endl;     
+}
+else if(curren=="aud"){
+		   cout<<value*875.85/1105.95<<endl;
+   	cout<<value*554.92<< " usd"<<endl;
+          
+} else if(curren=="inr"){
+		   cout<<value*875.85/34754.84<<endl;
+   	cout<<value*554.92<< " usd"<<endl;
+}
+  } 
+	else if(currency=="inr"){ //start
+	if(curren=="cad"){
+		   cout<<value*554.92/875.85<<endl;
+   	cout<<value*554.92<< " usd"<<endl;
+          
+}
+else if(curren=="aud"){
+		   cout<<value*554.92/1105.95<<endl;
+   	cout<<value*554.92<< " usd"<<endl;
+          
+} else if(curren=="euro"){
+		   cout<<value*34754.84/554.92<<endl;
+   	cout<<value*554.92<< " usd"<<endl;
+}
+   }}
+```
