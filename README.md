@@ -248,9 +248,10 @@ else if(curren=="aud"){
    }}
    
 ```
-``` c++
 ### Task 2
 // Kiritilgan sonning, kiritilgan oraliqdagi darajalari yigindisi
+``` c++
+
 #include <iostream>
 using namespace std;
 
