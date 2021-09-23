@@ -246,4 +246,28 @@ else if(curren=="aud"){
    	cout<<value*554.92<< " usd"<<endl;
 }
    }}
+   
+```
+``` c++
+### Task 2
+// Kiritilgan sonning, kiritilgan oraliqdagi darajalari yigindisi
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+int n,sum=0,i;
+int k; 
+cout<<"Oraliq kiriting : "; cin>>n;
+cout<<"Nechining darajasi kerak : "; cin>>i;
+k=i;
+
+ while(n>=i){
+	
+	sum=sum+i;
+	i=i*k;
+}
+cout<<sum;
+}
+
 ```
