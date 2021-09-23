@@ -176,6 +176,7 @@ int main(){
 
 # Lesson 10
 ### Task 1
+// Valyuta o'zgartirish
 ``` c++
 #include <iostream>
 using namespace std;
