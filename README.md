@@ -272,3 +272,24 @@ cout<<sum;
 }
 
 ```
+### Task 3
+// Tub son topish
+
+``` c++
+#include <iostream>
+using namespace std;
+
+int main(){
+	int n,sum=0;
+	cin>>n;
+	
+	for(int i=2; i<n; i++){
+		
+		if(n%i==0)
+	    sum+=1;	 	   
+}   
+     if(sum==0)
+    cout<<"Tub son ";
+    else cout<<"Tub son emas";
+}
+```
