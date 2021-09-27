@@ -293,3 +293,29 @@ int main(){
     else cout<<"Tub son emas";
 }
 ```
+### Task
+
+/// Kiritilgan son 2 ning darajasi yoki yo'q tekshirish
+
+``` c++
+#include <iostream>
+using namespace std;
+
+int main(){
+	
+int n,sum=0,i=2;
+int k; 
+cout<<"Oraliq kiriting : "; cin>>n;
+k=i;
+
+ while(n>i){
+	i=i*k;
+}
+
+if(n==i)
+cout<<"True"<<endl;
+else cout<<"False"<<endl;
+
+main();
+}
+```
