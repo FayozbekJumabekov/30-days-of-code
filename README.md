@@ -319,3 +319,31 @@ else cout<<"False"<<endl;
 main();
 }
 ```
+#Lesson 11
+### Task 1
+//Berilgan satrda nechta katta harf, nechta kichik harf borligini aniqlovchi dastur tuzing
+
+``` c++
+#include <iostream>
+#include <ctype.h>
+
+using namespace std;
+
+int main(){
+	int sumUpper=0, sumLower=0;
+	string satr;
+	cin>>satr;
+	
+	for(int i=0; i<=satr.length(); i++){
+		
+		if(isupper(satr[i]))
+		sumUpper++;
+		
+		else if(islower(satr[i]))sumLower++;
+		
+	}	
+	
+	cout<<"Katta harf :"<<sumUpper<<endl;
+	cout<<"Kichik harf :"<<sumLower;
+	
+} ```
