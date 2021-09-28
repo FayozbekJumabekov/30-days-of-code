@@ -346,8 +346,8 @@ int main(){
 	cout<<"Katta harf :"<<sumUpper<<endl;
 	cout<<"Kichik harf :"<<sumLower;
 	
-} ```
-
+} 
+```
 
 ### Task 2
 ``` c++
