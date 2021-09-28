@@ -319,7 +319,7 @@ else cout<<"False"<<endl;
 main();
 }
 ```
-#Lesson 11
+# Lesson 11
 ### Task 1
 //Berilgan satrda nechta katta harf, nechta kichik harf borligini aniqlovchi dastur tuzing
 
