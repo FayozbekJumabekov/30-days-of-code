@@ -350,6 +350,8 @@ int main(){
 ```
 
 ### Task 2
+/// Password
+
 ``` c++
 #include <iostream>
 #include <ctype.h>
