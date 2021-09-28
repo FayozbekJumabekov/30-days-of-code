@@ -347,3 +347,38 @@ int main(){
 	cout<<"Kichik harf :"<<sumLower;
 	
 } ```
+
+### Task 2
+``` c++
+#include <iostream>
+#include <ctype.h>
+
+using namespace std;
+
+int main(){
+	int sumUp=0,sumLow=0, sumDig=0;
+	string satr;
+	cin>>satr;
+	
+	for(int i=0; i<=satr.length(); i++){
+		
+		if(isupper(satr[i]))
+		 
+		 sumUp++; 
+
+		if(islower(satr[i]))
+		 
+		 sumLow++; 
+
+        if(isdigit(satr[i]))
+		 
+		 sumDig++; 
+		  }	
+		  
+		if(sumUp !=0 && sumLow!=0 && sumDig!=0 && satr.length() >= 8)
+		
+		  	cout<<"Yaroqli parol "<<endl;
+		  	
+		  	else cout<<"Yaroqsiz parol"<<endl;
+}
+```
