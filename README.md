@@ -385,3 +385,38 @@ int main(){
 		  	else cout<<"Yaroqsiz parol"<<endl;
 }
 ```
+### Task 3
+
+// Ekub topish
+
+``` c++
+#include <iostream>
+
+using namespace std;
+
+    int ekub(int a, int b){
+    	
+    	 while(a!=b){
+    	 	
+    	 	if(a>b)
+    	 	a=a-b;
+    	 	else if
+			 (a<b)
+    	 	b=b-a;
+    	 		
+		 }
+		 return a;
+        	
+	}
+   
+int main(){
+	
+	
+	int a,b;
+	cin>>a>>b;
+	
+	cout<<"Ekub : "<<ekub(a,b);
+	
+}
+
+```
