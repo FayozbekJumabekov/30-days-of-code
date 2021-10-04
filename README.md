@@ -420,3 +420,43 @@ int main(){
 }
 
 ```
+
+# Lesson 16
+
+### Task 1
+``` c++
+#include <iostream>
+#include <time.h>
+#include <stdlib.h>
+
+using namespace std;
+
+   void func (float arr[], int size,int k){
+   	      int m;
+		  for(int i=0; i<size; i++){
+		  	
+		  	cout<<arr[i]<<" ";
+		  	
+		if(arr[i]==k)
+		  	m=i;
+		  }
+		  cout<<endl<<"Indeksi: "<<m;
+   }
+
+int main(){
+	
+       int size,k; cout<< "n= "; cin>>size;
+       
+       float arr[size];
+        
+        for(int i=0; i<size; i++){
+             
+			 cin>>arr[i];	
+        	
+		}
+       
+       cout<<"Son kiriting :"; cin>>k;
+       
+       func(arr,size,k);
+}
+```
