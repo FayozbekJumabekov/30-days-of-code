@@ -422,6 +422,7 @@ int main(){
 ```
 
 # Lesson 16
+// Linear qidiruv
 
 ### Task 1
 ``` c++
