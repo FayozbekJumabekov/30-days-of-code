@@ -461,3 +461,46 @@ int main(){
        func(arr,size,k);
 }
 ```
+
+# Lesson 17
+### Task 1 
+// ikki olchovli arrayda olchovi toq kirtilganda, ikki chekkasi hamda orta liniyadagi elementlar summasi
+``` c++
+#include <iostream>
+
+using namespace std;
+
+
+int main(){
+	
+     int n,m,sum=0;
+     cout<<"Olcham kiriting : "; cin>>n>>m;
+     
+     int arr[n][m];
+     
+     for(int i=0; i<n; i++){
+     	
+     	for(int j=0; j<m; j++){
+     		cout<<i+1<<"."<<j+1<<" element : ";
+     		cin>>arr[i][j];
+     		
+		 }	
+	 }
+     cout<<endl;
+     for(int i=0; i<n; i++){
+     	for(int j=0; j<m; j++){
+     		
+     		cout<<arr[i][j]<<"  ";
+     		
+     		
+     		if(j==0 || j==m-1 || i==(n-1)/2)
+     		sum=sum+arr[i][j];
+			 
+			 	 
+			 	 }
+		 cout<<endl;
+	 }
+	        
+     	cout<<endl<<"Sum : "<<sum;
+}
+```
