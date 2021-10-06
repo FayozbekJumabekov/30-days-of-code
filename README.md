@@ -504,3 +504,31 @@ int main(){
      	cout<<endl<<"Sum : "<<sum;
 }
 ```
+### Task 2
+// S1 va S2 satrlari berilgan. S1 satrida birinchi uchragan S2 satrini o’chirib tashlovchi dastur tuzing. Agar S1 satrida S2 satri uchramasa S1 o’zgarishsiz qolsin
+
+``` c++
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	
+    	string str1,str2,text="";
+    	getline(cin,str1);
+    	getline(cin,str2);
+    	
+    	for(int i=0; i<str1.length(); i++){
+    		
+    		if(str1[i] == str2[0]){
+    			text.assign(str1,i,str2.length());
+    			if(text==str2){
+    				
+    			str1.erase(i,str2.length());
+					break;
+				}
+			}
+		}
+		cout<<str1;
+}
+```
