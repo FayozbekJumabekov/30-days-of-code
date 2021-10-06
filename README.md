@@ -532,3 +532,32 @@ int main(){
 		cout<<str1;
 }
 ```
+### Task 3
+// S1, S2 va S3 satrlari berilgan. S1 satrida birinchi uchragan S2 satrini S3 satriga o’zgartiruvchi dastur tuzing.
+
+```c++
+#include <iostream>
+
+using namespace std;
+
+int main(){
+	
+    	string str1,str2,str3,text="";
+    	getline(cin,str1);
+    	getline(cin,str2);
+    	getline(cin,str3);
+    	
+    	for(int i=0; i<str1.length(); i++){
+    		
+    		if(str1[i] == str2[0]){
+    			text.assign(str1,i,str2.length());
+    			if(text==str2){
+    				
+    				str1.replace(i,str2.length(),str3);
+    				
+				}
+			}
+		}
+		cout<<str1;
+}
+```
