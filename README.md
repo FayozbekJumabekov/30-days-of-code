@@ -561,3 +561,38 @@ int main(){
 		cout<<str1;
 }
 ```
+### Task 4
+
+//  S satr berilgan. Agar satrning uzunligi toq bo'lsa, eng
+o'rtadagi bitta belgisidan, agar juft bo'lsa, eng
+o'rtadagi 2 ta belgisidan iborat satrni ajratib oling.
+Masalan:
+1) s="hovli" => javob: result="v"
+2) s="antiqa" => javob: result ="ti"
+
+``` c++
+#include <iostream>
+
+using namespace std;
+
+int main(){
+      string str;
+      cout<<"Satrni kiriting : ";
+      cin>>str;
+      
+      for(int i=0; i<str.length(); i++){
+      	
+      	if(str.length()%2!=0){
+      		
+      		if(i==str.length()/2){
+      			cout<<str[i]<<endl;	
+			  }
+		  }
+		  else {
+		  	if(i==str.length()/2-1)
+
+		  	cout<<str[i]<<str[i+1];
+		  }
+	  }
+}
+```
